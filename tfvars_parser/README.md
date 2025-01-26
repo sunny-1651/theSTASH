@@ -27,15 +27,15 @@ output -> test.json
 > **Note:**
 > The GO version already exists: [alisdair/tfvars-json](https://github.com/alisdair/tfvars-json.git)
 > -------------------------------------------------------------------------------------------------------
-> Apparently there is a python library as well. [amplify-education/python-hcl2](https://github.com/amplify-education/python-hcl2.git)
+> Apparently there is a python library as well. [amplify-education/python-hcl2](https://github.com/amplify-education/python-hcl2.git)  
 > **USAGE**
 > ```
-import json
-import hcl2
-
-with open('foo.tf', 'r') as file:
-    dict = hcl2.load(file)
-
-with open("foo.json", "w") as file_out:
-  file_out.write(json.dumps(dict, indent=4))
-```
+> import json
+> import hcl2
+> 
+> with open('foo.tf', 'r') as file:
+>     dict = hcl2.load(file)
+> 
+> with open("foo.json", "w") as file_out:
+>   file_out.write(json.dumps(dict, indent=4))
+> ```

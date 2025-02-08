@@ -1,10 +1,10 @@
 # theSTASH
 
-### This repo has the helper scripts/packages that i use/think-of to use in a workflow
+### This repo has the helper scripts/packages that I use/think-of to use in a workflow
 I am planning to write scripts in python & GO. I will develop in one and will try to recreate in another.
 
 ### ITEMS
-1) **Terraform Renderer**
+1) [**Terraform Renderer**](./tfvar_renderer/)
     Useful when the tfvar file gets big and maintaining it becomes a hassle. 
     Instead finding the current object in a file that is thousands of lines long we can just split it into multple small tfvar files orgyanized neatly into appropriate directories. 
     The name of the directory is the id of the object in which the tfvar elements inside the dir are going to be enclosed.
